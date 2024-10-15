@@ -1,0 +1,16 @@
+{
+    "ID-ROTINA-TESTE1": {
+        "virus" : "SARS-CoV-2",
+        "data_rotina": "2024-10-23",
+        "primer": "CovidSeq_V3",
+        "protocolo": "Padrão CovidSeq",
+        "resultados_viralflow": "./ROTINA_TESTE_NS/RESULTS/COMPILED_OUTPUT/short_summary.csv"
+    },
+    "ID-ROTINA-TESTE2": {
+        "virus" : "DENV-1",
+        "data_rotina": "2023-10-23",
+        "primer": "DENV1_G5_Naveca",
+        "protocolo": "Protocolo DenV_OT",
+        "resultados_viralflow": "./ROTINA_TESTE_2_NS/RESULTS/COMPILED_OUTPUT/short_summary.csv"
+    }
+}

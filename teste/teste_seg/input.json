@@ -1,0 +1,14 @@
+{
+    "ID-ROTINA-TESTE": {
+        "virus" : "OROPOUCHE",
+        "data_rotina": "2024-10-23",
+        "primer": "OrovSeq_V1",
+        "protocolo": "Padrão Orov",
+        "resultados_viralflow_segmentos": 
+            {
+                "L": "./ROTINA_TESTE_SEG/RESULTS_L/COMPILED_OUTPUT/short_summary.csv",
+                "M": "./ROTINA_TESTE_SEG/RESULTS_M/COMPILED_OUTPUT/short_summary.csv",
+                "S": "./ROTINA_TESTE_SEG/RESULTS_S/COMPILED_OUTPUT/short_summary.csv"
+            }
+    }
+}

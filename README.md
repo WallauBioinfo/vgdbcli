@@ -50,6 +50,15 @@ vgdbcli --help
 
 No diretório `teste` constam os arquivos e instruções para teste dos dois módulos da ferramenta.
 
+## Linhas de comando
+
+Ambos os métodos possuem os mesmos argumentos:
+
+```bash
+vgdbcli ns --json-input <input.json> --metadados <metadados.csv> --unidade <unidade> --output <output.csv>
+vgdbcli seg --json-input <input.json> --metadados <metadados.csv> --unidade <unidade> --output <output.csv>
+```
+
 ## Input json
 
 Ambos os módos recebem um arquivo json, com a seguinte informação:
@@ -99,6 +108,10 @@ Ambos os tipos de input aceitam uma lista de rotinas, e possuem 4 campos em comu
 - data_rotina
 - primer
 - protocolo
+
+O que difere de um método para outro é que:
+- no método `ns` é passado o campo `resultados_viralflow` onde o usuário deve setar o path dos resultados compiltados `short_summary.csv` do ViralFlow.
+- no método `seg` é passado o campo `resultados_viralflow_segmentos` onde o usuário deve setar um dicionário com a relação segmento e path dos resultados compilados `short_summary.csv` do ViralFlow para cada segmento.
 
 Os valores aceitos para virus, primer, protocolo, podem ser [checados neste manual](https://docs.google.com/document/d/13Exnz0zlYgqtqcec9ulk-vRlzTJs5GRRP8H5a8yOzMs/edit?usp=sharing).
 

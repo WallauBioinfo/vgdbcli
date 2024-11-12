@@ -6,7 +6,7 @@ setup(
     Ferramenta para automatizar o envio de informações
     para a aplicação Viral Genomes DataBase (VGDB)
     """,
-    version="1.0.0",
+    version="1.1.0",
     authors="Filipe Dezordi",
     authors_emails='zimmer.filipe@gmail.com"',
     classifiers=[

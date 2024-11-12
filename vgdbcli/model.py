@@ -38,6 +38,7 @@ COLUNAS_METADADOS = [
     "banco_de_dados",
     "cod_submissao",
     "gisaid_virus_name",
+    "ds_fonte_coleta"
 ]
 
 COLUNAS_METADADOS_DTYPES = {
@@ -54,6 +55,7 @@ COLUNAS_METADADOS_DTYPES = {
     "banco_de_dados": str,
     "cod_submissao": str,
     "gisaid_virus_name": str,
+    "ds_fonte_coleta": str
 }
 
 COLUNAS_OBRIGATORIAS_METADADO = ["uf", "lab_origem", "data_coleta"]
@@ -83,6 +85,7 @@ OUTPUT_HEADER = output_header = [
     "banco_de_dados",
     "cod_submissao",
     "gisaid_virus_name",
+    "ds_fonte_coleta"
 ]
 
 PREFIXO_CONTROLES = ["control", "cneg", "c-neg", "c_neg", "undetermined"]

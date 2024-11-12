@@ -134,4 +134,4 @@ O arquivo de metadados deve ser um .CSV (separado por vírgula), com os seguinte
 | submetido           | booleano         | FALSE        | TRUE/FALSE                                                                                                 |
 | banco_de_dados      | enum(string)     | FALSE        | Gisaid, EpiFlu,EpiCoV, EpiRSV, EpiPox, EpiArbo, NCBI, EBI, ENA                                             |
 | gisaid_virus_name   | string           | FALSE        | Nome do vírus no arquivo fasta submetido                                                                   |
-
+| ds_fonte_coleta     | string           | FALSE        | Fonte da amostra biológica                                                                                 |
